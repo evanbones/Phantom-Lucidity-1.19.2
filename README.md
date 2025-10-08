@@ -1,18 +1,16 @@
 # Phantom Lucidity
 
-[![GitHub release](https://img.shields.io/github/release/haykam821/Phantom-Lucidity.svg?style=popout&label=github)](https://github.com/haykam821/Phantom-Lucidity/releases/latest)
+[![GitHub release](https://img.shields.io/github/release/evanbones/Phantom-Lucidity-1.19.2.svg?style=popout&label=github)](https://github.com/evanbones/Phantom-Lucidity-1.19.2/releases/latest)
 [![CurseForge](https://img.shields.io/static/v1?style=popout&label=curseforge&message=project&color=6441A4)](https://www.curseforge.com/minecraft/mc-mods/phantom-lucidity)
-[![Discord](https://img.shields.io/static/v1?style=popout&label=chat&message=discord&color=7289DA)](https://haykam.com/links/discord)
 
-Allows players to opt into fighting phantoms.
+Allows players to opt into fighting phantoms. 1.19.2 port of haykam821's [Phantom Lucidity](https://www.curseforge.com/minecraft/mc-mods/phantom-lucidity).
 
-Phantom Lucidity requires the [Fabric modloader](https://fabricmc.net/use/) and [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api).
+Phantom Lucidity requires the [Forge modloader](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.19.2.html).
 
 ## Installation
 
-1. Install [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api) if it is not installed.
-2. Download Phantom Lucidity from [CurseForge](https://www.curseforge.com/minecraft/mc-mods/phantom-lucidity/files) or [GitHub](https://github.com/haykam821/Phantom-Lucidity/releases).
-3. Place the downloaded file in your `mods` folder.
+1. Download Phantom Lucidity from [CurseForge](https://www.curseforge.com/minecraft/mc-mods/phantom-lucidity/files) or [GitHub](https://github.com/evanbones/Phantom-Lucidity-1.19.2/releases/).
+2. Place the downloaded file in your `mods` folder.
 
 ## Usage
 
