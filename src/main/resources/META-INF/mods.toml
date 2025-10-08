@@ -1,0 +1,29 @@
+modLoader = "javafml"
+loaderVersion = "[32,)"
+issueTrackerURL = "https://github.com/evanbones/Phantom-Lucidity-1.19.2/issues"
+license = "MIT"
+
+[[mods]]
+    modId = "phantomlucidity"
+    version = "1.0.0"
+    logoFile = "logo.png"
+    authors = "evanbones, haykam821"
+    displayURL = "https://github.com/evanbones/Phantom-Lucidity-1.19.2"
+    displayName = "Phantom Lucidity"
+    description = '''
+    Allows players to opt into fighting phantoms.
+    '''
+
+[[dependencies.phantomlucidity]]
+    modId = "minecraft"
+    mandatory = true
+    versionRange = "[1.19.2,1.19.3)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.phantomlucidity]]
+    modId = "forge"
+    mandatory = true
+    versionRange = "[43.1.0,)"
+    ordering = "NONE"
+    side = "BOTH"
