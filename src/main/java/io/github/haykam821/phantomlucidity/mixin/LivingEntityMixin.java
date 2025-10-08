@@ -19,7 +19,7 @@ public abstract class LivingEntityMixin extends Entity {
 		super(type, level);
 	}
 
-	@Inject(method = "updatingUsingItem", at = @At("HEAD"))
+	@Inject(method = "updateUsingItem", at = @At("HEAD"))
 	private void tickRevealPhantomsUsingSpyglass(CallbackInfo ci) {
 		LivingEntity entity = (LivingEntity) (Object) this;
 		ItemStack stack = entity.getUseItem();
