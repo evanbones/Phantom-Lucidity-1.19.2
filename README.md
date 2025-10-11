@@ -1,7 +1,7 @@
 # Phantom Lucidity
 
 [![GitHub release](https://img.shields.io/github/release/evanbones/Phantom-Lucidity-1.19.2.svg?style=popout&label=github)](https://github.com/evanbones/Phantom-Lucidity-1.19.2/releases/latest)
-[![CurseForge](https://img.shields.io/static/v1?style=popout&label=curseforge&message=project&color=6441A4)](https://www.curseforge.com/minecraft/mc-mods/phantom-lucidity)
+[![CurseForge](https://img.shields.io/static/v1?style=popout&label=curseforge&message=project&color=6441A4)](https://www.curseforge.com/minecraft/mc-mods/phantom-lucidity-backport)
 
 Allows players to opt into fighting phantoms. 1.19.2 port of haykam821's [Phantom Lucidity](https://www.curseforge.com/minecraft/mc-mods/phantom-lucidity).
 
