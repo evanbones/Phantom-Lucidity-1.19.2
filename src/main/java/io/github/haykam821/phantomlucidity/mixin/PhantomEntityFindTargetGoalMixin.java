@@ -11,17 +11,14 @@ import io.github.haykam821.phantomlucidity.PhantomLucidity;
 import net.minecraft.world.entity.monster.Phantom;
 
 @Mixin(targets = "net.minecraft.world.entity.monster.Phantom$PhantomAttackPlayerTargetGoal")
-public class PhantomEntityFindTargetGoalMixin {
-	@Shadow
-	@Final
-	Phantom this$0;
+public abstract class PhantomEntityFindTargetGoalMixin {
+	@Shadow @Final Phantom this$0;
 
 	@Inject(method = "canUse", at = @At("HEAD"), cancellable = true)
-	private void preventFindingTargetsWhileNotRevealed(CallbackInfoReturnable<Boolean> ci) {
-		boolean revealed = this.this$0.getEntityData().get(PhantomLucidity.REVEALED);
-
+	private void preventFindingTargetsWhileNotRevealed(CallbackInfoReturnable<Boolean> cir) {
+		boolean revealed = this$0.getEntityData().get(PhantomLucidity.REVEALED);
 		if (!revealed) {
-			ci.setReturnValue(false);
+			cir.setReturnValue(false);
 		}
 	}
 }
